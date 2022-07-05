@@ -8,6 +8,14 @@
 正则表达式引擎为:Pcre8.1与大多常用的基本兼容，如vba、emEditor
 >注： 替换中的引用为 $1,$2,$3....$9等
 
+### 下载地址
+●  下载地址:[蓝奏云:https://sixtyone.lanzoux.com/b015cpfji](https://sixtyone.lanzoux.com/b015cpfji)
+    
+●  视频介绍: [bilibili视频](https://space.bilibili.com/250915492/video)
+    
+    
+●  交流反馈及更多小工具请关注QQ群：595797774（1群已满） <font color=red>**2群：233862980**</font>
+
 ### 一般设置
 | 特殊        | 描述      |
 | ------------- | ------------- |
@@ -28,4 +36,4 @@
      
 - v1.0.3      
  ○ 增加查找结果列表         
- ○ 增加增加替换功能      
+ ○ 增加增加替换功能     
