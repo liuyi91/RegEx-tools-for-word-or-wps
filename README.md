@@ -19,6 +19,7 @@
     
 ●  视频介绍: [bilibili视频](https://space.bilibili.com/250915492/video)
     
+●  ReadMe: [ReadMe](http://note.youdao.com/noteshare?id=987641bbdbfbe3d9a7b321ddfd5f4004&sub=55634728E5FB4B55AD5D6675769F4C6A)    
     
 ●  交流反馈及更多小工具请关注QQ群：595797774（1群已满） <font color=red>**2群：233862980**</font>
 
