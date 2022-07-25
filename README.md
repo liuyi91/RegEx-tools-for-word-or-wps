@@ -13,6 +13,10 @@
 > 注3:    支持\K模式，例如\\,\K\y+可以查找以标点符号开始的中文
 >
 > 注4:    支持POSIX字符集，例如[[:alpha:]]可以查找[a-zA-Z]字符，[[:punct:]]可以查找标点符号
+>
+> 注5:    替换中$L0转为小写，$U0转为大写
+>
+> 注6:    匹配表格中单元格数值：(?:^|\a)\K-?[\d.]++(?=\a)
 
 ### 下载地址
 ●  下载地址:[蓝奏云:https://sixtyone.lanzoux.com/b015cpfji](https://sixtyone.lanzoux.com/b015cpfji)
