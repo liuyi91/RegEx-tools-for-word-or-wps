@@ -22,8 +22,8 @@
 ●  下载地址:[蓝奏云:https://sixtyone.lanzoux.com/b015cpfji](https://sixtyone.lanzoux.com/b015cpfji)
     
 ●  视频介绍: [bilibili视频](https://space.bilibili.com/250915492/video)
-    
-●  ReadMe: [ReadMe](http://note.youdao.com/noteshare?id=987641bbdbfbe3d9a7b321ddfd5f4004&sub=55634728E5FB4B55AD5D6675769F4C6A)    
+
+●  ReadMe: [ReadMe](http://note.youdao.com/noteshare?id=987641bbdbfbe3d9a7b321ddfd5f4004&sub=55634728E5FB4B55AD5D6675769F4C6A)        
     
 ●  交流反馈及更多小工具请关注QQ群：595797774（1群已满） <font color=red>**2群：233862980**</font>
 
@@ -34,6 +34,20 @@
 | m)  | 多行模式 |
 |<font color=red>\\,<br>匹配常见标点</font>|<font color=red>!"#$%&'()*+,\-.\/:;<=>?@[\]^_`{\|}~！\\“”￥‘’（），、。：；《》？【】……·◎○※×±Φφδ≠≥≤↑→↓ ∥∧∨①②③④⑤⑥⑦⑧⑨⑩ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ★☆℃√</font>|
 |<font color=red>\\y<br>匹配常规中文</font>|<font color=red>即等于：[\x{4e00}-\x{9fa5}]<br>约等于：[一-龟]</font>|
+
+
+### 替换中的m=>模式
+| 格式        | 描述      |
+| ------------- | ------------- |
+| m=>  | **必须前缀格式** |
+| i.0  | 一般用作序号<br>如1：++i.0<br>如2："<" ++i*2-1 ">" |
+| m[0]、m[1]  | 替换引用由$1,$2,$3变成m[1],m[2]... |
+| StrLower(m[0])<br>StrUpper(m[0])  | 转小写<br>转大写 |
+| StrLen(m[0])  | 长度 |
+| SubStr(m[0],start,length)  | 截取字符 |
+| (m[0] >10 ) ? "Z" : "L"  | 三元运算 |
+| StrSplit(A_clipboard,"`n")[++i.0]  | 替换为剪切板的第n行数据 |
+
 
 ### 通用语法
 | 常用元素        | 描述      |
@@ -76,6 +90,13 @@
 
 
 ### 更新历史
+- v1.1.3[2022.07.30]  
+ ○ 更新替换中：m=>xxxx 的高级替换模式   
+ ○ 例1:替换为序号: m=>++i.0   
+ ○ 例2:替换为序号、: m=>++i.0 "、"   
+
+- v1.1.2[2022.07.27]     
+
 - v1.1.1[2022.07.20]     
  ○ 修复ctrl+c在某些界面报错
 
