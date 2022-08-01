@@ -17,6 +17,8 @@
 > 注5:    替换中$L0转为小写，$U0转为大写
 >
 > 注6:    匹配表格中单元格数值：(?:^|\a)\K-?[\d.]++(?=\a)
+>
+> 注7:    匹配shift+回车需用\v匹配，多行模式需用\`am)
 
 ### 下载地址
 ●  下载地址:[蓝奏云:https://sixtyone.lanzoux.com/b015cpfji](https://sixtyone.lanzoux.com/b015cpfji)
